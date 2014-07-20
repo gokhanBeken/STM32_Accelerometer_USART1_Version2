@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=serialPort.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\serialPort -TC:\CooCox\CoIDE\configuration\ProgramData\serialPort/arm-gcc-link.ld -g">
+      <target file="serialPort.elf" lastModified="14741126e07">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="14740f43640"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14740f43688"/>
+         <source file="..\obj\main.o" lastModified="14741126be0"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14740f437a9"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14740f437fe"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14740f4388b"/>
+         <source file="..\obj\misc.o" lastModified="14740f43906"/>
+         <source file="..\obj\usart.o" lastModified="14740f439b6"/>
+      </target>
+   </processor>
+</history>

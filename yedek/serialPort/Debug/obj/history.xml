@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\gokhan\Desktop\STM32_Accelerometer_USART1\cmsis_lib\include -I..\..\..\..\..\Users\gokhan\Desktop\STM32_Accelerometer_USART1 -I..\..\..\..\..\Users\gokhan\Desktop\STM32_Accelerometer_USART1\cmsis -I..\..\..\..\..\Users\gokhan\Desktop\STM32_Accelerometer_USART1\user -I..\..\..\..\..\Users\gokhan\Desktop\STM32_Accelerometer_USART1\cmsis_lib -I..\..\..\..\..\Users\gokhan\Desktop\STM32_Accelerometer_USART1\cmsis_boot -I..\..\..\..\..\Users\gokhan\Desktop">
+      <target file="stm32f4xx_rcc.o" lastModified="14740f437a9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1462ef9824d"/>
+      </target>
+      <target file="misc.o" lastModified="14740f43906">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1462ef9824d"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14740f4388b">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1462ef9822e"/>
+      </target>
+      <target file="usart.o" lastModified="14740f439b6">
+         <source file="..\..\..\user\usart.c" lastModified="1462f4735e6"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14740f437fe">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1462ef9824d"/>
+      </target>
+      <target file="main.o" lastModified="14741126be0">
+         <source file="..\..\..\main.c" lastModified="147411267cc"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14740f43640">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1462ef9825d"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14740f43688">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1462ef9821e"/>
+      </target>
+   </processor>
+</history>
